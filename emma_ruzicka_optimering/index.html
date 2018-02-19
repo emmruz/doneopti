@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+        <head>
+            <meta charset="utf-8" />
+            <title>Emma Ruzicka</title>
+            <link href="css/style.css" media="screen" rel="stylesheet" type="text/css"/>
+            <link href="webfontkitbree/stylesheet.css" rel="stylesheet" type="text/css"/>
+            <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">
+            
+        </head>
+        <body>
+        
+                <header>
+                    <img class="header_img" src="images/berg.png" alt="Vy över berg" />
+                    <h1 class="name">Emma Ruzicka</h1>
+                        <nav>
+                           <ul class="inline-list">
+                                <li class="inline-list__item"><a href="showcase.html">Kontakt</a></li>
+                                <li class="inline-list__item"><a href="showcase.html">Om mig</a></li>
+                                <li class="inline-list__item"><a href="showcase.html">Showcase</a></li>
+                                <li class="inline-list__item"><a href="showcase.html">Info</a></li>
+                            </ul>
+                            <p class="headinfo">Spenderar helst min tid uppe på en fjällstopp där jag <br> samlar ny energi och inspiration till kommande projekt. </p>
+                        </nav>
+                    
+                </header>
+            
+               <main> 
+                   <div class="wrapper">
+                        <article>
+                            <img src="images/emma1.png" alt="Emma vid hav"/>
+                            <div class="flex-container">
+                                <h2 class="centered-head">INFO</h2>
+                                <p>I den här uppgiften har jag valt att skriva kod i html5 och har kontinuerligt under arbetets gång validerat både min html och css kod genom WC3:s validator. Jag skickade in min kod till examinationen och hade valt att arbeta med för att få mina kolumner att hamna på rätt plats. Det här visade sig inte fungera så bra då jag fick en skärmdump av en lärare som visade att det var stort avstånd mellan mina kolumner. Detta då jag använt position absolute och relative som kan göra att innehållet på sidan flyter iväg och inte stannar där det var tänkt. Till omexaminationen så har jag valt att istället använda mig av flexbox genom större delen av arbetet samt att jag gjorde om hela min css. I Head har jag lagt in alla min stylesheets som en css reset som jag har hämtat på (Meyer,E.A. 2016) för att inte förstöra min egen stylesheet. Jag har använt mig av UTF-8 för att se till att svenska tecken som å, ä och ö visar korrekt i webbläsaren. Jag läste på w3cschools att alltid design för mobile first, så jag började med att ha en brytpunkt 768px, och valde därefter att ha en mobilupplösning vid 400px, en för tablets mellan 401px- 960px och en för desktop från 961px,(1.W3Schools, 2017). Därefter gjorde jag om bakgrundfärgern i mobilupplösningen till röd, tablet till gul och desktop till blå för att tydligt se är jag gjorde ändringar och vilken upplösning som jag arbetade i.Efter detta gjorde jag mina ul listor i navigationsmenyn och valde en unsorted list för att kunna styla hela listan. jag valde även att lägga till olika färger beroende på om när man ser den, för musen över, eller klickar. Här använde jag komplement färger för att tydliggöra att det är en länk (2.W3Schools, 2017).Sedan gick jag vidare med mitt huvudinnehåll, då mina bilder la sig över header så ville jag fixa till dem så de hamnade på rätt plats. här hade jag tidigare valt att använda mig av float och clear, eftersom jag nu ändrade till mobile first så var jag tvungen att se till så att mittenkolumnen hamnade först från början. Tidigare använde jag mig av position absolute och relative, men eftersom det förstörde utseendet på sidan så surfade jag runt och hittade flera som diskuterade vad som var bäst.
+                                </p>
+                            </div>
+                        </article>
+                       
+                        <article>
+                            <img src="images/emma1.png" alt="Emma vid hav" />
+                            <div class="flex-container">
+                                <h2 class="centered-head">ABOUT</h2>
+                                <p>Jag tror att om jag bara ville ha en mittenkolumn så hade det tidigare fungerat, men många röster föll på att använda sig av flex-box så skapade klasser i mina articles för detta. Så jag testade och utgick från kod som fanns på W3c schools (3.W3Schools, 2017) då den lämpade sig bäst, såväl med inspiration från andra sidor. Jag testa genom w3c egna sida att flytta runt kolumnerna där lite innan, och kom då fram till att om jag gav ordern 2 till mittenkolumnen men la den artikeln först i min html så hamnar den överst i mobilversionen men i mitten i desktopversionen, dock fungerade inte detta utan min andra kolumn fortsatte vara nummer 2 och inte nummer 1 i mobilversionen (Stackoverflow, 2014). Innan jag gav mig på namn och text uppe i hedern så fixade jag till min footer,här började som jag tidigare även gjort att klistra in min gamla kod för att se hur den gick att applicera i nya koden, jag började använda mig av float men kände att min information i footern inte hamnade där jag ville så jag körde med flexbox även här och jag kunde på ett enklare sätt på min element på rätt plats. Jag användae mig av klasser för att ge de olika elementen villkor. först satte jag generella villor i footer, som höjd font-size, font- family osv för att sedan specificera marginaler i mina klasser. Jag döpte mina klasser till footer navigation och footer info för att kunna ändra innehållet utan att påverka innebörden på klassnamnen.Nästa utmaning blev att få till mitt namn och texten om mig själv i Headern. Jag har genom sidan använt mig av typsnittet Futura i header och footer då det ger ett intryck som är ganska avskalat, för att i rubrikerna i mitt maincontent anvnda den nedladdade fonten Bree Serif, vilket passar bra på enstaka ord men inte i meningar. I rester av mina paragrafer har jag använt Helvetica. Här stötte jag på lite problem när jag ändra ordning i min html för att jag ville att min ul lista skulle komma 3a eftersom mockupen var byggd så, först namn, lista, sist text. men då flyttade hela flex-containern ner sig. Jag läste att man kan använda något som heter z-index som jag satte till -1 för att få headerbilden att lägga sig bakom allt annat (4.W3Schools, 2017). Jag är relativt nöjd med sidan förutom att jag inte inte har fått till att mina kolumner i dekstop-versionen har lagt sig som jag ville. Jag har använt mig av flex-box på ett sätt jag uppfattar som korrekt men lyckas trots det inte få till det som det borde vara.
+                            </p>
+                            </div>
+                        </article>
+                    
+                        <article>
+                            <img src="images/emma1.png" alt="Emma vid hav"/>
+                            <div class="flex-container">
+                                <h2 class="centered-head">KÄLLFÖRTECKNING</h2>
+                                <p>Meyer WEB, 2016, CSS TOOLS: RESET CSS [Elektronisk] Tillgänglig: https://meyerweb.com/eric/tools/css/reset/ [Hämtad: 2017- 09-19](Meyer,E.A. 2016)
+                                1.W3Schools, 2017. Responsive Web Design Media Queries[Elektronisk] Tillgänglig: https://www.w3schools.com/css/css_rwd_mediaqueries.asp [Hämtad: 2017-11-10](3.W3Schools, 2017)
+                                2.W3Schools, 2017. CSS Navigation Bar[Elektronisk] Tillgänglig: https://www.w3schools.com/css/css_navbar.asp [Hämtad: 2017-10-20]
+                                3.W3Schools, 2017. CSS Flexible Box Layout Module[Elektronisk] Tillgänglig: https://www.w3schools.com/css/css3_flexbox.asp [Hämtad: 2017-11-20]
+                                Stackoverflow, 2014, HTML+CSS-Overlapping Header Image[Elektronisk] Tillgänglig: https://stackoverflow.com/questions/26897071/html-css-overlapping-header-image [Hämtad: 2017-11-20]
+                                Learn CSS Layout, [Elektronisk] Tillgänglig: http://learnlayout.com/ [Hämtad: 2017-11-15]
+                                4.W3Schools, 2017. Try Css Z-Index. [Elektronisk] Tillgänglig: https://www.w3schools.com/cssref/tryit.asp?filename=trycss_zindex [Hämtad: 2017-11-20]
+                                    </p>
+                            </div>
+                        </article>
+                       
+                    </div> 
+                </main>
+                <footer>
+                    <div class="footer-nav">
+                        <img src="images/address.png" alt="Adress">
+                    </div>
+                    <p class="footer-info">Stationsvägen&nbsp;1a<br>837 52 Åre</p>
+                    <div class="footer-nav">
+                        <img src="images/phone.png" alt="Phone">
+                    </div>
+                    <p class="footer-info">070-&nbsp;247&nbsp;36&nbsp;43<br>+46&nbsp;70-&nbsp;247&nbsp;36&nbsp;43</p>
+                    <div class="footer-nav">
+                        <img src="images/email%20icon%20copy.png" alt="E-mail">
+                    </div>
+                    <p class="footer-info">emma@stitchnstones.se<br>www.stitchnstones.se</p>
+                </footer>
+
+        </body>
+</html>
